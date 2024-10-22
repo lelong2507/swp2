@@ -1,0 +1,57 @@
+.intro-web-service {
+    width: 850px;
+}
+
+.intro-web-service h3 {
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+
+.intro-was-born {
+    width: 850px;
+}
+
+.intro-was-born a {
+    text-decoration: none;
+    color: var(--color--accent);
+    transition: all 0.5s ease-in;
+}
+
+.intro-was-born a:hover {
+    color: var(--color--main);
+}
+
+.wrapper__img__service {
+    position: relative;
+    overflow: hidden;
+}
+
+.wrapper__img__service img {
+    width: 850px;
+    transition: transform 0.5s ease;
+    transform: translate(100px, -100px);
+    opacity: 0;
+}
+
+.wrapper__img__service.show img {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.wrapper__img__content {
+    width: 850px;
+}
+
+.wrapper__img__content b {
+    font-size: 15px;
+    color: var(--color--accent);
+    padding: 0px 2px;
+}
+
+.mt-2 b {
+    font-size: 15px;
+    color: var(--color--accent);
+    padding: 0px 2px;
+}

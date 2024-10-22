@@ -1,0 +1,71 @@
+.app__header {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    background-color: var(--color--white);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.logo-part {
+    padding-right: 20px;
+}
+
+.logo-part img {
+    width: 200px;
+}
+
+.menu-sidebar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color--main-dark);
+    font-size: 1rem;
+}
+
+.menu-sidebar a {
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color--main-dark);
+    font-size: 1rem;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.menu-sidebar a:hover {
+    color: var(--color--main);
+}
+
+.menu-sidebar a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: var(--color--main);
+    transition: width 0.3s ease-in-out;
+}
+
+.menu-sidebar a:hover::after {
+    width: 100%;
+}
+
+.menu-sidebar a.active::after {
+    width: 100%;
+}
+
+.btn__booking {
+    padding: 8px 30px;
+    background-color: var(--color--dark);
+    color: var(--color--white);
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    transition: all 0.5s ease-in;   
+}
+
+.btn__booking:hover {
+    background-color: var(--color--main-dark);
+    color: var(--color--accent);
+}

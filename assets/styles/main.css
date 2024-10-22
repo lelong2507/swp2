@@ -1,0 +1,23 @@
+/* Pages */
+@import url('./pages/service_page.css');
+
+/* Components */
+@import url('./components/intro_part.css');
+@import url('./components/search__components.css');
+@import url('./components/header.css');
+@import url('./components/banner_service.css');
+@import url('./components//intro-web-service.css');
+@import url('./components/why__choose__us.css');
+@import url('./components/commit__part.css');
+@import url('./components/infor-contact.css');
+@import url('./components/information__wrapper.css');
+@import url('./components/wrapper_end_main.css');
+@import url('./components/footer.css');
+/* Global */
+@import url('./global/variable.css');
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}

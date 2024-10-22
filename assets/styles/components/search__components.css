@@ -1,0 +1,19 @@
+.wrapper__search.hidden {
+    display: none;
+}
+.search_input input {
+    width: 350px;
+    border: 1px solid var(--color--primary--gray);
+    padding: 10px 15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+} 
+
+.search_input button {
+    padding: 11px 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    background-color: var(--color--main);
+    color: var(--color--white);
+}

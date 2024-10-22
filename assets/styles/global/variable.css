@@ -1,0 +1,13 @@
+:root {
+    /* Color Part here  */
+    --color--accent: #49B3F4;
+    --color-linkend: #4e8eb6;
+    --color--main: #3D51AC;
+    --color--main-dark: #273172;
+    --color--white: #fff;
+    --color--dark: #000;
+    --color--dark--1:#3a3a3a;
+    --color--green: #23A455;
+    --color--red: rgba(161, 32, 49, 0.8);
+    --color--primary--gray: rgba(182, 182, 182, 0.8);
+}

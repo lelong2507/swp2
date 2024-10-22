@@ -1,0 +1,31 @@
+.why-choose-us {
+    width: 850px;
+}
+
+.text-heading {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--color--dark--1);
+}
+
+.service-intro a {
+    text-decoration: none;
+    color: var(--color--accent);
+}
+
+.img-choose-us img {
+    width: 850px;
+    transition: transform 0.5s ease;
+    transform: translate(100px, -100px);
+    opacity: 0;
+}
+
+.img-choose-us.show img {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.img-choose-us a {
+    text-decoration: none;
+    color: var(--color--accent);
+}
