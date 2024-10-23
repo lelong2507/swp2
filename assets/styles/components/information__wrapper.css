@@ -22,3 +22,22 @@
 .information-wrapper h3 {
     color: var(--color--main);
 }
+
+.action {
+    position: relative;
+}
+
+.action .fa-angle-left{
+    position: absolute;
+    top: 18px;
+    right: 350px;
+}
+
+.action .fa-angle-right{
+    position: absolute;
+    top: 18px;
+    left: 350px;
+}
+.action a{
+    text-decoration: none;
+}

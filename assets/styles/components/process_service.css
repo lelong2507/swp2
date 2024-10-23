@@ -1,0 +1,46 @@
+.process_service {
+    width: 100%;
+    max-width: 850px;
+}
+
+.text-heading h3 {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--color--dark--1);
+}
+
+img {
+    width: 100%;
+    max-width: 850px;
+}
+
+.wrapper__img__service_process img {
+    width: 100%;
+    max-width: 850px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    transform: translate(100px, -100px);
+    opacity: 0;
+}
+
+.wrapper__img__service_process.show img {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.content-process li {
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.content-process-5 img {
+    width: 100%;
+    max-width: 850px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    transform: translate(100px, -100px);
+    opacity: 0;
+}
+
+.content-process-5.show img {
+    transform: translate(0, 0);
+    opacity: 1;
+}

@@ -1,0 +1,20 @@
+.benefit {
+    width: 100%;
+    max-width: 850px;
+}
+
+.text-heading h3 {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--color--dark--1);
+}
+
+.main-content-benefit ul {
+    list-style-type: decimal;
+}
+
+.main-content-benefit li {
+    padding-top: 15px;
+    font-weight: 600;
+    font-size: 15px;
+}

@@ -14,6 +14,6 @@
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border: none;
-    background-color: var(--color--main);
+    background-color: var(--color--carrot);
     color: var(--color--white);
 }

@@ -1,0 +1,66 @@
+.price_of_web {
+    width: 100%;
+    max-width: 850px;
+}
+.text-heading h3 {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--color--dark--1);
+}
+
+img {
+    width: 100%;
+    max-width: 850px;
+}
+
+.combo1 img {
+    width: 100%;
+    max-width: 850px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    transform: translate(100px, -100px);
+    opacity: 0;
+}
+
+.combo1.show img {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.combo2 img {
+    width: 100%;
+    max-width: 850px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    transform: translate(100px, -100px);
+    opacity: 0;
+}
+
+.combo2.show img {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.combo3 img {
+    width: 100%;
+    max-width: 850px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    transform: translate(100px, -100px);
+    opacity: 0;
+}
+
+.combo3.show img {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.wrapper_img_price img {
+    width: 100%;
+    max-width: 850px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    transform: translate(100px, -100px);
+    opacity: 0;
+}
+
+.wrapper_img_price.show img {
+    transform: translate(0, 0);
+    opacity: 1;
+}

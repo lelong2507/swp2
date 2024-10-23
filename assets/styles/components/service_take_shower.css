@@ -1,0 +1,23 @@
+.service_take_shower {
+    width: 100%;
+    max-width: 850px;
+}
+
+.service_take_shower.text-heading h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--color--dark--1);
+}
+
+.wrapper__img_take_shower img {
+    width: 100%;
+    max-width: 850px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    transform: translate(100px, -100px);
+    opacity: 0;
+}
+
+.wrapper__img_take_shower.show img {
+    transform: translate(0, 0);
+    opacity: 1;
+}

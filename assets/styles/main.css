@@ -2,22 +2,43 @@
 @import url('./pages/service_page.css');
 
 /* Components */
-@import url('./components/intro_part.css');
+/* Service - Page */
+@import url('./components/navbar.css');
 @import url('./components/search__components.css');
 @import url('./components/header.css');
 @import url('./components/banner_service.css');
-@import url('./components//intro-web-service.css');
+@import url('./components//intro_was_born.css');
 @import url('./components/why__choose__us.css');
 @import url('./components/commit__part.css');
 @import url('./components/infor-contact.css');
 @import url('./components/information__wrapper.css');
 @import url('./components/wrapper_end_main.css');
 @import url('./components/footer.css');
+
+/* Hotel - Page */
+@import url('./components/mission_of_us.css');
+@import url('./components/service_take_shower.css');
+
+/* Spa - Page */
+@import url('./components/benefit.css');
+@import url('./components/price_of_web.css');
+@import url('./components/process_service.css');
+
 /* Global */
 @import url('./global/variable.css');
 
+/* Button */
+@import url('./components/btn.css');
+/* Font - Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
 }

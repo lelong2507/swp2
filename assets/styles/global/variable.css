@@ -10,4 +10,8 @@
     --color--green: #23A455;
     --color--red: rgba(161, 32, 49, 0.8);
     --color--primary--gray: rgba(182, 182, 182, 0.8);
+    --color--gray: #EFEFEF;
+    --color--carrot: #e67e22;
+    --light--color: #666;
+    --light--bg: #eee;
 }

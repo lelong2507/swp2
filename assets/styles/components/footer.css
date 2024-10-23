@@ -1,24 +1,33 @@
-.app-footer {
+/* .app-footer {
+    width: 100%;
+    background: url('../../images/footer_background.jpg');
+    background-position: center;
+    background-size: center;
+    padding: 50px 0px;
+    position: relative;
+}
+
+.app-footer img{
     width: 100%;
 }
 
+
 .main-footer {
-    background-color: var(--color--dark);
     color: var(--color--white);
     padding: 30px 100px;
 }
 
-.main-content-1{
+.main-content-1 {
     width: 400px;
 }
 
-.footer-content-1 h2{
+.footer-content-1 h2 {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 30px;
 }
 
-.footer-content-1 h3{
+.footer-content-1 h3 {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 30px;
@@ -111,4 +120,12 @@
 
 .heart {
     color: red;
+} */
+
+.footer {
+    width: 100%;
+    background: url('../../images/footer_background.jpg');
+    background-position: center;
+    background-size: center;
+    height: 300px;
 }
